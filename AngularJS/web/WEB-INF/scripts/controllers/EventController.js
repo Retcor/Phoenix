@@ -10,6 +10,12 @@
 //    }
 //);
 
-function HelloCntl($scope) {
-    $scope.name = 'World';
+function SimpleController($scope) {
+    $scope.customers = [
+        {name: "Billy Bob", city:"Hickville"},
+        {name: "Billsee Boof", city:"Brunkerville"},
+        {name: "Laugh Off", city:"Lawlystown"},
+        {name: "Foopy Shnoops", city:"Rawrington"},
+        {name: "Imma Boss", city:"Epicton"}
+    ];
 }
